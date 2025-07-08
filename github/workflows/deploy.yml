@@ -1,0 +1,27 @@
+name: Deploy to Defang
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Defang
+        uses: DefangLabs/defang-github-action@v1.2.0
+        with:
+          cli-version: v0.5.43        # optional, pin version
+          compose-files: "docker-compose.yml"
+          config-env-vars: "POSTGRES_PASSWORD DJANGO_SECRET_KEY"
+        env:
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
