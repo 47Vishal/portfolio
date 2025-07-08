@@ -1,0 +1,256 @@
+INFO 2025-07-02 12:38:13,529 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:39:00,968 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\AuthAPI\settings.py changed, reloading.
+INFO 2025-07-02 12:39:10,846 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-02 12:39:29,506 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:09,688 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:11,245 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:11,648 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:11,758 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:12,000 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:12,104 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:17,273 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:17,368 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:17,584 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:17,683 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:18,137 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 12:45:18,242 log Unauthorized: /api/user/logout/
+INFO 2025-07-02 12:47:06,160 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\urls.py changed, reloading.
+INFO 2025-07-02 12:47:06,819 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:47:16,173 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 12:47:16,802 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:50:15,904 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 12:50:16,658 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:55:08,707 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 12:55:09,376 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:57:47,716 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 12:57:48,403 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:58:50,816 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 12:58:51,501 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 12:59:38,805 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 12:59:39,468 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:00:11,779 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 13:00:12,466 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:01:11,543 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:01:12,202 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:01:22,318 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:01:22,932 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:01:37,482 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:01:38,095 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:03:16,158 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:03:16,803 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:03:41,604 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:03:42,210 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 13:03:57,532 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 13:03:58,137 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-02 13:04:27,673 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 13:27:10,996 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 13:27:13,075 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 13:27:13,931 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 13:27:14,308 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 13:27:32,485 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 14:31:39,934 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 14:31:43,451 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 14:32:15,694 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 14:32:17,145 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 14:32:17,900 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 14:49:52,265 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 15:13:35,245 log Unauthorized: /api/user/logout/
+WARNING 2025-07-02 15:26:17,176 log Not Found: /favicon.ico
+INFO 2025-07-02 15:29:14,167 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 15:29:15,227 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 15:35:08,192 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 15:35:08,831 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 15:39:07,565 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-02 16:01:13,037 log Unauthorized: /api/user/logout/
+INFO 2025-07-02 16:05:23,717 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\models.py changed, reloading.
+INFO 2025-07-02 16:05:24,467 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 16:06:56,205 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\AuthAPI\settings.py changed, reloading.
+INFO 2025-07-02 16:06:56,908 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-02 16:07:23,539 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 16:07:44,663 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 16:12:55,185 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 16:55:47,078 log Not Found: /api/profile/
+WARNING 2025-07-02 16:56:06,732 log Not Found: /api/profile
+ERROR 2025-07-02 16:56:49,692 log Internal Server Error: /api/user/profile
+Traceback (most recent call last):
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/profile/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-07-02 16:56:51,436 log Internal Server Error: /api/user/profile
+Traceback (most recent call last):
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/profile/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-07-02 16:57:05,502 log Internal Server Error: /api/user/profile
+Traceback (most recent call last):
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/profile/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+WARNING 2025-07-02 16:57:34,412 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 16:58:12,428 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 16:58:16,306 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:04:01,545 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:04:18,396 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:04:19,953 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:04:21,398 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:06:41,902 log Method Not Allowed: /api/user/profile/
+WARNING 2025-07-02 17:10:18,669 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:10:54,262 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:13:01,641 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:13:23,961 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:16:28,799 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:16:48,968 log Unauthorized: /api/user/profile/
+INFO 2025-07-02 17:23:36,569 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 17:23:37,915 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 17:23:47,587 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 17:23:48,397 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 17:34:10,393 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-02 17:34:11,407 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 17:34:53,234 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 17:34:54,018 autoreload Watching for file changes with StatReloader
+INFO 2025-07-02 17:35:57,041 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-02 17:35:57,909 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-02 17:37:05,641 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:37:24,430 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:40:33,032 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:41:58,033 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 17:42:17,257 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:02:28,277 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:06:52,961 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:07:10,094 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:07:18,943 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:07:46,794 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:08:02,415 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:08:05,592 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:08:11,620 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:08:28,798 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:09:33,745 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:31:57,326 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:32:21,689 log Unauthorized: /api/user/SignIn/
+WARNING 2025-07-02 18:32:32,067 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 18:39:02,295 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 19:09:05,481 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 19:09:08,718 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 19:09:12,432 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 19:11:19,042 log Unauthorized: /api/user/profile/
+WARNING 2025-07-02 19:30:44,412 log Unauthorized: /api/user/profile/
+INFO 2025-07-03 10:22:12,388 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-03 10:22:14,184 autoreload Watching for file changes with StatReloader
+INFO 2025-07-03 10:22:18,475 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-03 10:22:19,187 autoreload Watching for file changes with StatReloader
+INFO 2025-07-03 10:22:27,722 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-03 10:22:28,564 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-03 10:25:56,402 log Unauthorized: /api/user/profile/
+WARNING 2025-07-03 10:33:47,761 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 10:55:38,323 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 10:58:28,759 log Unauthorized: /api/user/profile/
+WARNING 2025-07-03 10:59:24,281 log Bad Request: /api/user/logout/
+WARNING 2025-07-03 11:01:41,138 log Bad Request: /api/user/logout/
+WARNING 2025-07-03 11:01:43,735 log Bad Request: /api/user/logout/
+INFO 2025-07-03 11:03:03,448 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-03 11:03:04,592 autoreload Watching for file changes with StatReloader
+INFO 2025-07-03 11:09:05,329 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-03 11:09:06,083 autoreload Watching for file changes with StatReloader
+INFO 2025-07-03 11:13:07,676 autoreload G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py changed, reloading.
+INFO 2025-07-03 11:13:08,639 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-03 11:16:19,164 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 11:18:44,999 log Bad Request: /api/user/logout/
+INFO 2025-07-03 11:19:59,263 views User vishal55@gmail.com logged out from IP 127.0.0.1
+WARNING 2025-07-03 12:02:41,439 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:07:27,385 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:07:28,764 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:07:29,754 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:07:30,380 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:07:30,480 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:16:23,138 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:16:29,636 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:16:56,613 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:19:50,428 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:19:57,227 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:20:01,967 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:20:06,618 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:20:13,228 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:03,109 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:04,098 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:04,970 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:05,591 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:05,700 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:05,880 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:05,983 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,172 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,280 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,471 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,562 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,747 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:06,840 log Unauthorized: /api/user/logout/
+WARNING 2025-07-03 14:23:07,247 log Unauthorized: /api/user/logout/
+INFO 2025-07-07 12:32:40,924 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-07 12:33:44,022 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 12:38:31,280 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 12:38:35,311 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 12:39:58,795 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 13:44:56,852 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 13:49:13,688 log Unauthorized: /api/user/logout/
+WARNING 2025-07-07 13:49:41,974 log Unauthorized: /api/user/logout/
+ERROR 2025-07-07 13:50:48,262 views Unexpected logout error: [ErrorDetail(string='Token is invalid or already blacklisted.', code='invalid')]
+Traceback (most recent call last):
+  File "G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py", line 151, in save
+    token = RefreshToken(self.token)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\rest_framework_simplejwt\tokens.py", line 71, in __init__
+    self.verify()
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\rest_framework_simplejwt\tokens.py", line 282, in verify
+    super().verify(*args, **kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\rest_framework_simplejwt\tokens.py", line 129, in verify
+    self.verify_token_type()
+  File "C:\Users\V\AppData\Roaming\Python\Python312\site-packages\rest_framework_simplejwt\tokens.py", line 141, in verify_token_type
+    raise TokenError(_("Token has wrong type"))
+rest_framework_simplejwt.exceptions.TokenError: Token has wrong type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Portfolio\django\API Project\Authentication\AuthAPI\account\views.py", line 124, in post
+    serializer.save()
+  File "G:\Portfolio\django\API Project\Authentication\AuthAPI\account\serializers.py", line 154, in save
+    raise serializers.ValidationError("Token is invalid or already blacklisted.")
+rest_framework.exceptions.ValidationError: [ErrorDetail(string='Token is invalid or already blacklisted.', code='invalid')]
+ERROR 2025-07-07 13:50:48,322 log Internal Server Error: /api/user/logout/
+INFO 2025-07-07 13:51:44,418 views User vishal55@gmail.com logged out from IP 127.0.0.1
+INFO 2025-07-07 14:12:46,262 views User vishal55@gmail.com logged out from IP 127.0.0.1
+INFO 2025-07-07 14:56:40,396 views User vishal55@gmail.com logged out from IP 127.0.0.1
+WARNING 2025-07-07 15:00:59,917 log Unauthorized: /api/user/logout/
+INFO 2025-07-07 15:01:31,508 views User vishal55@gmail.com logged out from IP 127.0.0.1
+INFO 2025-07-08 12:54:51,046 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-08 13:00:16,177 log Not Found: /favicon.ico
+WARNING 2025-07-08 13:22:58,749 log Unauthorized: /api/user/profile/
+INFO 2025-07-08 16:20:19,049 views User vishal55@gmail.com logged out from IP 127.0.0.1
+INFO 2025-07-08 16:21:57,227 views User vishal55@gmail.com logged out from IP 127.0.0.1
