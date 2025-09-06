@@ -49,7 +49,7 @@ function ChangePin() {
             const res = await changeUserPassword({ actualPinChangeData, access_token })
             if (res.error) {
                 setErrors(res.error.data.errors)
-                // console.log("Change password errors:", res.error.data.errors)
+                console.log("Change password errors:", res.error.data.errors)
                 setSuccessMessage('');
                 //setSuccessMessage({})  this mean 
             }
@@ -62,7 +62,7 @@ function ChangePin() {
                 setTimeout(() => navigate.push('/profile'), 2000);
             }
         } catch (err) {
-            // console.error("Change Pin Error:", err);
+            console.error("Change Pin Error:", err);
             setErrors({ non_field_errors: ['Unexpected error occurred.'] });
 
         }

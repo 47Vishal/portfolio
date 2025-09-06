@@ -1,10 +1,16 @@
 // Need to use the React-specific entry point to import createApi
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+
+const isDevelopment = process.env.NEXT_PUBLIC_MODE === 'development';
+const myBaseUrl = isDevelopment
+    ? process.env.NEXT_PUBLIC_API_BASE_URL_LOCAL 
+    : process.env.NEXT_PUBLIC_API_BASE_URL;
 
 // Define a service using a base URL and expected endpoints
 export const userAuthAPI = createApi({
+
     reducerPath: 'userAuthAPI',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://127.0.0.1:8000/api/user/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: myBaseUrl }),
     endpoints: (builder) => ({
         registerUser: builder.mutation({
             query: (MyUser) => {
@@ -76,7 +82,7 @@ export const userAuthAPI = createApi({
                 url: 'logout/',
                 method: 'POST',
                 body: { refresh_token: refreshToken },
-                headers: { 'Content-type': 'application/json' , authorization: `Bearer ${accessToken}` },
+                headers: { 'Content-type': 'application/json', authorization: `Bearer ${accessToken}` },
                 // ...(accessToken && { authorization: `Bearer ${accessToken}` }),
             }),
         }),
@@ -86,4 +92,11 @@ export const userAuthAPI = createApi({
 
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
-export const { useRegisterUserMutation, useUserLogInMutation, useGetLoggedUserQuery, useChangeUserPasswordMutation, useSendEmailLinkUserPasswordMutation, useResetUserPasswordMutation, useUserLogOutMutation } = userAuthAPI
+export const {
+    useRegisterUserMutation,
+    useUserLogInMutation,
+    useGetLoggedUserQuery,
+    useChangeUserPasswordMutation,
+    useSendEmailLinkUserPasswordMutation,
+    useResetUserPasswordMutation,
+    useUserLogOutMutation } = userAuthAPI;

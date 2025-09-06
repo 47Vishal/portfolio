@@ -4,6 +4,10 @@ import { useState } from 'react';
 import {useResetUserPasswordMutation, } from '../../../services/userAuthAPI';
 import { useRouter, useParams } from 'next/navigation';
 
+export async function generateStaticParams() {
+  return []; // ✅ Required for static export with dynamic route
+}
+
 const initial_values ={
     password : "",
     password_confirmation :"",
@@ -37,7 +41,7 @@ const ResetPin = () => {
                 //setServerMsg({})  this mean 
             }
         } catch (err) {
-            // console.error('❗ Reset error object:', err);
+            console.error('❗ Reset error object:', err);
             if(err) {
                 setError("Unexpected error. Please try again.");
             }

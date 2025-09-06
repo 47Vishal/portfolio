@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Bachelor of Science (Mathematic) </li>
+        <li>Sant Gadge Baba Amravati University, Amravati, Maharashtra</li>
       </ul>
     ),
   },
@@ -33,8 +33,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li><a href="https://freecodecamp.org/certification/VishalTodsam/data-analysis-with-python-v7">Data Analysis with Python</a></li>
+        <li><a href="https://freecodecamp.org/certification/VishalTodsam//responsive-web-design">Responsive Web Design </a></li>
       </ul>
     ),
   },
@@ -53,7 +53,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="about" priority/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">

@@ -14,7 +14,7 @@ const PinLink = () => {
 
         const res = await SendEmailLinkUserPassword({ email });
         if (res.error) {
-            setErrors(res.error.data.errors || { apiError: 'Something went wrong.' })
+            setErrors(res?.error?.data?.errors || { apiError: res?.error?.data?.errors || 'Something went wrong.' })
             setSuccessMessage({})
             //setServerMsg({})  this mean 
         }

@@ -29,15 +29,27 @@ const EmailSection = () => {
       // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
-
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
+    try {
+      const response = await fetch(endpoint, options);
+      let resData = {};
+      const contentType = response.headers.get("content-type");
+      // const resData = await response.json();
+      if (contentType && contentType.includes("application/json")) {
+        resData = await response.json();
+      } else {
+        const text = await response.text();
+        console.warn("Expected JSON, got:", text);
+      };
+      if (response.status === 200) {
+        console.log("Message sent.");
+        setEmailSubmitted(true);
+      }
+    } catch (error) {
+      console.error("Fetch failed:", error);
     }
-  };
+    ;
+  }
+
 
   return (
     <section
@@ -56,10 +68,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/47Vishal">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/vishal-todsam-703472209/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useRegisterUserMutation } from '@/services/userAuthAPI';
 import { useDispatch } from 'react-redux';
 
+
 const SignUpForm = ({ onSubmit }) => {
   const dispatch = useDispatch();
   const [tabIndex, setTabIndex] = useState(0);
@@ -19,6 +20,8 @@ const SignUpForm = ({ onSubmit }) => {
 
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState('');
+
+
 
   useEffect(() => {
     if (successMessage) {
@@ -49,10 +52,16 @@ const SignUpForm = ({ onSubmit }) => {
     setErrors({});
     setSuccessMessage('');
 
+
+
+    // Add hcaptcha token to the payload sent to backend
+    const payload = { ...formData };
+
     try {
-      const response = await registerUser(formData);
-      // console.log(response); 
+      const response = await registerUser(payload);
+      console.log(response); 
       // if (response.data && response.data.status ==="success") 
+
       if (response.data ) {
         setSuccessMessage(response.data.msg);
         document.getElementById('SignUp_Form_Submit').reset();
@@ -63,7 +72,7 @@ const SignUpForm = ({ onSubmit }) => {
         setErrors({ apiError: 'An unknown error occurred.' });
       }
     } catch (response) {
-      // console.error("Unexpected error:", response);
+      console.error("Unexpected error:", response);
       setErrors({ apiError: 'Something went wrong. Please try again.' });
     }
   };
@@ -158,6 +167,8 @@ const SignUpForm = ({ onSubmit }) => {
         {errors.Term && <p className="text-sm text-red-400 ml-2">{errors.Term}</p>}
       </div>
 
+
+
       {/* Success & Error Messages */}
       {successMessage && <p className="text-green-400 text-sm">{successMessage}</p>}
       {errors.non_field_errors && (
@@ -166,6 +177,7 @@ const SignUpForm = ({ onSubmit }) => {
       {errors.apiError && (
         <p className="text-sm text-red-400">{errors.apiError}</p>
       )}
+
 
       {/* Submit Button */}
       <button

@@ -4,29 +4,40 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "start": "serve out"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
+    "@emotion/styled": "^11.14.0",
+    "@hcaptcha/react-hcaptcha": "^1.12.0",
     "@heroicons/react": "^2.0.18",
-    "@mui/material": "^7.2.0",
+    "@mui/material": "^7.1.1",
     "@reduxjs/toolkit": "^2.8.2",
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "^10.4.21",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "encoding": "^0.1.13",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.15",
     "framer-motion": "^10.16.1",
     "js-cookie": "^3.0.5",
-    "next": "13.4.15",
-    "postcss": "8.4.27",
-    "react": "18.2.0",
+    "next": "^13.4.15",
+    "postcss": "^8.5.6",
+    "react": "^18.2.0",
     "react-animated-numbers": "^0.16.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.2",
     "react-type-animation": "^3.1.0",
     "resend": "^1.0.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "^4.1.11",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "serve": "^14.2.4"
   }
 }

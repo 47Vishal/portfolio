@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'],  })
 export const metadata = {
   title: 'BlogPose - Home',
   description: 'BlogPose Create With app',
+  alt : 'vishal'
 }
 
 export default function RootLayout({ children }) {

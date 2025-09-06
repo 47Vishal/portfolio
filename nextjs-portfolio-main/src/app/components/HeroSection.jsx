@@ -4,8 +4,13 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useSelector } from "react-redux"
+
 
 const HeroSection = () => {
+  const access_token = useSelector((state) => state.auth.access_token);
+  const isAuthenticated = !!access_token;
+  
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -35,24 +40,33 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Skilled in both backend development and frontend integration, with a strong command over tools and technologies like Django, MySQL, HTML/CSS, and API testing using Postman.<br />
+            Proficient in unit testing and debugging, ensuring robust and bug-free code throughout the development lifecycle. Adept at writing clean, readable, and efficient code, with a keen focus on performance and user experience.
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://www.linkedin.com/in/vishal-todsam-703472209/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+            {isAuthenticated ? (
+              <Link
+                href="/resume.pdf"
+                target="_blank"
+                rel= "noopener noreferrer"
+                download
+                className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              >
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Download CV
+                </span>
+              </Link>
+            ) : (
+              <p className="text-sm text-gray-400 mt-4">
+                🔒 Sign in to download my resume
+              </p>
+            )}
           </div>
         </motion.div>
         <motion.div

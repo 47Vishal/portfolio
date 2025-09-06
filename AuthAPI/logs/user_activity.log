@@ -254,3 +254,71 @@ WARNING 2025-07-08 13:00:16,177 log Not Found: /favicon.ico
 WARNING 2025-07-08 13:22:58,749 log Unauthorized: /api/user/profile/
 INFO 2025-07-08 16:20:19,049 views User vishal55@gmail.com logged out from IP 127.0.0.1
 INFO 2025-07-08 16:21:57,227 views User vishal55@gmail.com logged out from IP 127.0.0.1
+INFO 2025-07-21 05:36:21,727 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-21 05:38:16,753 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 05:43:58,879 log Bad Request: /api/user/SignIn/
+WARNING 2025-07-21 05:44:29,575 log Bad Request: /api/user/register/
+WARNING 2025-07-21 05:50:05,148 log Method Not Allowed: /api/user/SignIn/
+WARNING 2025-07-21 05:50:14,321 log Bad Request: /api/user/SignIn/
+WARNING 2025-07-21 05:51:02,990 log Bad Request: /api/user/SignIn/
+WARNING 2025-07-21 05:54:51,744 log Unauthorized: /api/user/profile/
+WARNING 2025-07-21 05:57:36,496 log Method Not Allowed: /api/user/profile/
+WARNING 2025-07-21 05:58:21,337 log Bad Request: /api/user/change_password/
+WARNING 2025-07-21 05:59:36,918 log Bad Request: /api/user/change_password/
+WARNING 2025-07-21 06:01:17,858 log Unauthorized: /api/user/change_password/
+WARNING 2025-07-21 06:01:27,838 log Unauthorized: /api/user/SignIn/
+WARNING 2025-07-21 06:02:36,978 log Bad Request: /api/user/change_password/
+WARNING 2025-07-21 06:02:50,966 log Bad Request: /api/user/change_password/
+WARNING 2025-07-21 06:06:46,785 log Bad Request: /api/user/ResetLink_Pin/
+INFO 2025-07-21 06:56:48,362 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-21 06:56:58,662 log Internal Server Error: /api/user/ResetLink_Pin
+Traceback (most recent call last):
+  File "C:\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/ResetLink_Pin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-07-21 06:57:40,460 log Internal Server Error: /api/user/ResetLink_Pin
+Traceback (most recent call last):
+  File "C:\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/ResetLink_Pin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO 2025-07-21 06:58:10,146 autoreload Watching for file changes with StatReloader
+INFO 2025-07-21 07:02:34,992 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-21 07:03:36,546 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 07:05:58,443 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 07:06:12,365 log Bad Request: /api/user/register/
+INFO 2025-07-21 07:51:05,577 autoreload Watching for file changes with StatReloader
+INFO 2025-07-21 07:53:47,246 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-21 07:54:04,821 log Unauthorized: /api/user/SignIn/
+WARNING 2025-07-21 07:55:25,089 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 07:55:59,410 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 10:37:19,962 log Not Found: /favicon.ico
+WARNING 2025-07-21 11:02:32,384 log Bad Request: /api/user/ResetLink_Pin/
+WARNING 2025-07-21 11:02:47,061 log Bad Request: /api/user/ResetLink_Pin/
+INFO 2025-07-21 11:04:36,074 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-21 11:10:16,824 log Bad Request: /api/user/ResetLink_Pin/
+INFO 2025-07-21 11:58:27,734 autoreload Watching for file changes with StatReloader
+INFO 2025-07-21 11:58:50,249 autoreload G:\Portfolio\django\portfolio_project\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-21 11:58:51,246 autoreload Watching for file changes with StatReloader
+INFO 2025-07-21 11:59:40,740 autoreload G:\Portfolio\django\portfolio_project\AuthAPI\account\serializers.py changed, reloading.
+INFO 2025-07-21 11:59:46,692 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-21 12:03:06,417 log Bad Request: /api/user/register/
+WARNING 2025-07-21 12:11:07,426 log Bad Request: /api/user/register/
+WARNING 2025-07-21 12:11:13,664 log Bad Request: /api/user/register/

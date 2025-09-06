@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const { Outfit } = require('next/font/google');
 const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
@@ -13,12 +14,17 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
-    },
+      colors: {
+        ...colors,
+        primary: colors.purple,
+        secondary: colors.pink,
+        lighttheme: "fcf4ff",
+      },
+      fontFamily:{
+        Outfit:[''],
+        Ovo: ["Ovo", 'serif']
+      }
+    }, 
   },
   plugins: [],
 };

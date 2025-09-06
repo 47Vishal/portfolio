@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: portfolio-backend
+    env: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn AuthAPI.wsgi:application
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        fromEnvVar: DJANGO_SECRET_KEY
+      - key: DATABASE_URL
+        fromEnvVar: DATABASE_URL
+      - key: EMAIL_USER
+        fromEnvVar: EMAIL_USER
+      - key: EMAIL_PASS
+        fromEnvVar: EMAIL_PASS
+      - key: CREATE_SUPERUSER
+        value: true
+      - key: DJANGO_SUPERUSER_EMAIL
+        value: admin@example.com
+      - key: DJANGO_SUPERUSER_PASSWORD
+        value: strongpassword

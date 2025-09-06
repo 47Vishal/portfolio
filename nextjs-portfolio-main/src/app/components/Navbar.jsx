@@ -68,7 +68,7 @@ const Navbar = () => {
       // Redirect to login page
       router.push('/');
     } catch (error) {
-      // console.error('Logout failed', error);
+      console.error('Logout failed', error);
     }
   };
 
@@ -89,11 +89,11 @@ const Navbar = () => {
     //   e.preventDefault();
     // }
     if (link.isModal) {
-      // console.log("Opening Modal...");
+      console.log("Opening Modal...");
       handleModalOpen();
     }
     if (link.onClick) {
-      // console.log("Calling onClick handler...");
+      console.log("Calling onClick handler...");
       link.onClick();
     }
     if (link.path.startsWith('#')) {
@@ -107,7 +107,7 @@ const Navbar = () => {
       <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-80 shadow-sm">
         <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
           <Link href="/" className="text-2xl md:text-5xl text-white font-semibold">
-            LOGO
+           VT
           </Link>
 
 

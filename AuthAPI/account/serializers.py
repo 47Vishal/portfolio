@@ -8,6 +8,10 @@ from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from rest_framework_simplejwt.tokens import RefreshToken, TokenError
 from django.contrib.auth.password_validation import validate_password
 import logging
+import os 
+import requests
+from django.core.mail import EmailMessage
+from django.conf import settings
 
 class UserRegistrationSerializers(serializers.ModelSerializer):
     confirm_password = serializers.CharField(style={'input_type':"password"}, write_only= True)
@@ -24,7 +28,7 @@ class UserRegistrationSerializers(serializers.ModelSerializer):
         confirm_password = attrs.get('confirm_password')
         term_accepted = attrs.get('Term')
         if password != confirm_password:
-            raise serializers.ValidationError("password and Comfirm_Password Not Match")    
+            raise serializers.ValidationError("password and Comfirm Password Not Match")    
         if not term_accepted:
             raise serializers.ValidationError({"Term": "You must accept the terms and conditions."})
         return attrs
@@ -60,6 +64,7 @@ class UserChangePasswordSerializers(serializers.Serializer):
         fields = ['password', 'confirm_password']
 
     def validate(self, attrs):
+        
         current_password = attrs.get('current_password')
         new_password = attrs.get('password')
         confirm_password = attrs.get('confirm_password')
@@ -98,7 +103,7 @@ class SendPasswordResetEmailSerializer(serializers.Serializer):
             print('Encoded UID', uid)
             token = PasswordResetTokenGenerator().make_token(user)
             print('Password rest Token', token)
-            link='http://localhost:3000/api/user/reset/'+uid+ '/'+token
+            link= f"{settings.FRONTEND_BASE_URL}/api/user/reset/{uid}/{token}"
             print('Password Reset link', link)
             body = f"Click here to reset your password: <a href='{link}'>Reset Password</a>"
             # body = "click here " + link
@@ -124,7 +129,7 @@ class UserRestPinSerializer(serializers.Serializer):
             uid = self.context.get('uid')
             token = self.context.get('token')
             if password != confirm_password:
-                raise serializers.ValidationError({"non_field_errors":["password and Comfirm_Password Not Match"]})  
+                raise serializers.ValidationError({"non_field_errors":["password and Comfirm Password Not Match"]})  
             try:
                 id = smart_str(urlsafe_base64_decode(uid))
                 user = MyUser.objects.get(id = id)

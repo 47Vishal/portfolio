@@ -7,6 +7,8 @@ import { setUserToken } from "@/features/authSlice";
 import { LocalStoreToken, getToken } from "../../../services/LocalStoreService";
 import Link from "next/link";
 
+
+
 const LoginForm = ({ handleClose }) => {
   const dispatch = useDispatch();
   const [loginUser, { isLoading }] = useUserLogInMutation();
@@ -18,6 +20,7 @@ const LoginForm = ({ handleClose }) => {
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
 
+
   // ✅ Login Handler
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -26,7 +29,7 @@ const LoginForm = ({ handleClose }) => {
 
     try {
       const res = await loginUser({ email, password }).unwrap();
-      // console.log(res);
+      console.log(res);
       // Save token to localStorage
       LocalStoreToken(res.token); // assumes token object has { access, refresh }
       // Set token in Redux
@@ -35,7 +38,7 @@ const LoginForm = ({ handleClose }) => {
       }
       // Show success message
       setSuccessMessage(res.msg);
-      // console.log(res.msg);
+      console.log(res.msg);
       document.getElementById('LogIn_Form_Submit').reset();
       // Optionally close modal
       if (handleClose) handleClose();
@@ -112,6 +115,8 @@ const LoginForm = ({ handleClose }) => {
           <p className="text-red-500 text-sm mt-1">{errors.password[0]}</p>
         )}
       </div>
+    
+
       {errors.non_field_errors && (
         <p className="text-sm text-red-400">{errors.non_field_errors[0]}</p>
       )}
